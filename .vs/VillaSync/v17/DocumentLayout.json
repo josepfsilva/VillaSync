@@ -1,34 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\utilizador\\Documents\\GitHub\\VillaSync\\",
+  "WorkspaceRootPath": "C:\\Users\\guife\\OneDrive\\Documentos\\GitHub\\VillaSync\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A290F261-8E9D-4CC7-B991-49673BE34E41}|VillaSync\\VillaSync.csproj|C:\\Users\\utilizador\\Documents\\GitHub\\VillaSync\\villasync\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A290F261-8E9D-4CC7-B991-49673BE34E41}|VillaSync\\VillaSync.csproj|solutionrelative:villasync\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A290F261-8E9D-4CC7-B991-49673BE34E41}|VillaSync\\VillaSync.csproj|C:\\Users\\utilizador\\Documents\\GitHub\\VillaSync\\villasync\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A290F261-8E9D-4CC7-B991-49673BE34E41}|VillaSync\\VillaSync.csproj|solutionrelative:villasync\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A290F261-8E9D-4CC7-B991-49673BE34E41}|VillaSync\\VillaSync.csproj|c:\\users\\utilizador\\documents\\github\\villasync\\villasync\\apartamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A290F261-8E9D-4CC7-B991-49673BE34E41}|VillaSync\\VillaSync.csproj|solutionrelative:villasync\\apartamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A290F261-8E9D-4CC7-B991-49673BE34E41}|VillaSync\\VillaSync.csproj|C:\\Users\\utilizador\\Documents\\GitHub\\VillaSync\\villasync\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A290F261-8E9D-4CC7-B991-49673BE34E41}|VillaSync\\VillaSync.csproj|solutionrelative:villasync\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A290F261-8E9D-4CC7-B991-49673BE34E41}|VillaSync\\VillaSync.csproj|c:\\users\\utilizador\\documents\\github\\villasync\\villasync\\moradia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A290F261-8E9D-4CC7-B991-49673BE34E41}|VillaSync\\VillaSync.csproj|solutionrelative:villasync\\moradia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A290F261-8E9D-4CC7-B991-49673BE34E41}|VillaSync\\VillaSync.csproj|C:\\Users\\utilizador\\Documents\\GitHub\\VillaSync\\villasync\\anuncio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A290F261-8E9D-4CC7-B991-49673BE34E41}|VillaSync\\VillaSync.csproj|C:\\Users\\guife\\OneDrive\\Documentos\\GitHub\\VillaSync\\villasync\\anuncio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A290F261-8E9D-4CC7-B991-49673BE34E41}|VillaSync\\VillaSync.csproj|solutionrelative:villasync\\anuncio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A290F261-8E9D-4CC7-B991-49673BE34E41}|VillaSync\\VillaSync.csproj|C:\\Users\\utilizador\\Documents\\GitHub\\VillaSync\\villasync\\appdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A290F261-8E9D-4CC7-B991-49673BE34E41}|VillaSync\\VillaSync.csproj|solutionrelative:villasync\\appdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A290F261-8E9D-4CC7-B991-49673BE34E41}|VillaSync\\VillaSync.csproj|C:\\Users\\guife\\OneDrive\\Documentos\\GitHub\\VillaSync\\villasync\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A290F261-8E9D-4CC7-B991-49673BE34E41}|VillaSync\\VillaSync.csproj|solutionrelative:villasync\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A290F261-8E9D-4CC7-B991-49673BE34E41}|VillaSync\\VillaSync.csproj|c:\\users\\guife\\onedrive\\documentos\\github\\villasync\\villasync\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A290F261-8E9D-4CC7-B991-49673BE34E41}|VillaSync\\VillaSync.csproj|solutionrelative:villasync\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,42 +22,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppData.cs",
-              "DocumentMoniker": "C:\\Users\\utilizador\\Documents\\GitHub\\VillaSync\\VillaSync\\AppData.cs",
-              "RelativeDocumentMoniker": "VillaSync\\AppData.cs",
-              "ToolTip": "C:\\Users\\utilizador\\Documents\\GitHub\\VillaSync\\VillaSync\\AppData.cs",
-              "RelativeToolTip": "VillaSync\\AppData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T16:56:52.529Z",
-              "IsPinned": true
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\utilizador\\Documents\\GitHub\\VillaSync\\VillaSync\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\guife\\OneDrive\\Documentos\\GitHub\\VillaSync\\VillaSync\\Form1.cs",
               "RelativeDocumentMoniker": "VillaSync\\Form1.cs",
-              "ToolTip": "C:\\Users\\utilizador\\Documents\\GitHub\\VillaSync\\VillaSync\\Form1.cs",
+              "ToolTip": "C:\\Users\\guife\\OneDrive\\Documentos\\GitHub\\VillaSync\\VillaSync\\Form1.cs",
               "RelativeToolTip": "VillaSync\\Form1.cs",
-              "ViewState": "AQIAAFwBAAAAAAAAAAAowIoBAABjAAAA",
+              "ViewState": "AQIAAGIBAAAAAAAAAAAawGgBAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T10:34:59.653Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\utilizador\\Documents\\GitHub\\VillaSync\\VillaSync\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\guife\\OneDrive\\Documentos\\GitHub\\VillaSync\\VillaSync\\Form1.cs",
               "RelativeDocumentMoniker": "VillaSync\\Form1.cs",
-              "ToolTip": "C:\\Users\\utilizador\\Documents\\GitHub\\VillaSync\\VillaSync\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\guife\\OneDrive\\Documentos\\GitHub\\VillaSync\\VillaSync\\Form1.cs [Design]",
               "RelativeToolTip": "VillaSync\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T10:45:29.124Z",
@@ -81,52 +56,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\utilizador\\Documents\\GitHub\\VillaSync\\VillaSync\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "VillaSync\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\utilizador\\Documents\\GitHub\\VillaSync\\VillaSync\\Form1.Designer.cs",
-              "RelativeToolTip": "VillaSync\\Form1.Designer.cs",
-              "ViewState": "AQIAAOUCAAAAAAAAAAD4v/YCAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T15:45:36.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Moradia.cs",
-              "DocumentMoniker": "C:\\Users\\utilizador\\Documents\\GitHub\\VillaSync\\VillaSync\\Moradia.cs",
-              "RelativeDocumentMoniker": "VillaSync\\Moradia.cs",
-              "ToolTip": "C:\\Users\\utilizador\\Documents\\GitHub\\VillaSync\\VillaSync\\Moradia.cs",
-              "RelativeToolTip": "VillaSync\\Moradia.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAgwEsAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T20:51:56.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Apartamento.cs",
-              "DocumentMoniker": "C:\\Users\\utilizador\\Documents\\GitHub\\VillaSync\\VillaSync\\Apartamento.cs",
-              "RelativeDocumentMoniker": "VillaSync\\Apartamento.cs",
-              "ToolTip": "C:\\Users\\utilizador\\Documents\\GitHub\\VillaSync\\VillaSync\\Apartamento.cs",
-              "RelativeToolTip": "VillaSync\\Apartamento.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAIwFIAAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T20:50:45.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Anuncio.cs",
-              "DocumentMoniker": "C:\\Users\\utilizador\\Documents\\GitHub\\VillaSync\\VillaSync\\Anuncio.cs",
+              "DocumentMoniker": "C:\\Users\\guife\\OneDrive\\Documentos\\GitHub\\VillaSync\\VillaSync\\Anuncio.cs",
               "RelativeDocumentMoniker": "VillaSync\\Anuncio.cs",
-              "ToolTip": "C:\\Users\\utilizador\\Documents\\GitHub\\VillaSync\\VillaSync\\Anuncio.cs",
+              "ToolTip": "C:\\Users\\guife\\OneDrive\\Documentos\\GitHub\\VillaSync\\VillaSync\\Anuncio.cs",
               "RelativeToolTip": "VillaSync\\Anuncio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAAAE0AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-18T15:20:26.181Z",
               "EditorCaption": ""

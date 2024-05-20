@@ -22,6 +22,8 @@ namespace VillaSync
         {
             InitializeComponent();
             connectionString = ConfigurationManager.ConnectionStrings["VillaSync.Properties.Settings.VillaSyncConnectionString"].ConnectionString;
+            
+
 
 
             // Initialize DetalhesAnuncio as empty
@@ -358,22 +360,32 @@ namespace VillaSync
 
         private void dataGridView2_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >= 0)
-            {
-                // Get the selected Anuncio
-                DataGridViewRow row = dataGridView2.Rows[e.RowIndex];
-                Anuncio selectedAnuncio = (Anuncio)row.DataBoundItem;
+            // Retrieve the ID from the clicked cell
+            int anuncioId = Convert.ToInt32(dataGridView2.Rows[e.RowIndex].Cells["ID"].Value);
 
-                // Display the details in the DetalhesAnuncio TextBox
-                DetalhesAnuncio.Text = $"Título: {selectedAnuncio.Titulo}\n" +
-                                       $"Descrição: {selectedAnuncio.Descricao}\n" +
-                                       $"Valor do Contrato: {selectedAnuncio.Valor}\n" +
-                                       $"Nome do Cliente: {selectedAnuncio.Pnome}\n" +
-                                       $"Localização da Propriedade: {selectedAnuncio.Localizacao}";
-                DetalhesAnuncio.Visible = true;
-                buttonCloseDetails.Visible = true;
+            // Pass the ID to the GetAnuncioDetails method
+            Anuncio DetailedAnuncio = Anuncio.GetAnuncioDetails(connectionString, anuncioId);
+
+            if (DetailedAnuncio != null)
+            {
+                DetalhesAnuncio.Text =
+                    "Titulo: " + DetailedAnuncio.Titulo + "\n"
+                    + "Descrição: " + DetailedAnuncio.Descricao + "\n"
+                    + "Valor: " + DetailedAnuncio.Valor + "\n"
+                    + "Proprietário: " + DetailedAnuncio.Pnome + "\n"
+                    + "Localização: " + DetailedAnuncio.Localizacao + "\n";
             }
+            else
+            {
+                DetalhesAnuncio.Text = "Anúncio não encontrado.";
+            }
+            buttonCloseDetails.Visible = true;
+            DetalhesAnuncio.Visible = true;
+            
         }
+        
+        
+
 
         private void buttonCloseDetails_Click(object sender, EventArgs e)
         {
@@ -413,5 +425,9 @@ namespace VillaSync
 
 
         }
+
+        
+
+   
     }
 }

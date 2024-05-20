@@ -67,12 +67,12 @@
             this.button2 = new System.Windows.Forms.Button();
             this.Tab2 = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.DetalhesAnuncio = new System.Windows.Forms.ListBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.label16 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -87,7 +87,7 @@
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.button6 = new System.Windows.Forms.Button();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.DetalhesAnuncio = new System.Windows.Forms.RichTextBox();
             this.Tab1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -535,16 +535,6 @@
             this.tabPage2.Text = "Resumo";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // DetalhesAnuncio
-            // 
-            this.DetalhesAnuncio.FormattingEnabled = true;
-            this.DetalhesAnuncio.ItemHeight = 16;
-            this.DetalhesAnuncio.Location = new System.Drawing.Point(20, 9);
-            this.DetalhesAnuncio.Margin = new System.Windows.Forms.Padding(4);
-            this.DetalhesAnuncio.Name = "DetalhesAnuncio";
-            this.DetalhesAnuncio.Size = new System.Drawing.Size(350, 292);
-            this.DetalhesAnuncio.TabIndex = 7;
-            // 
             // dataGridView2
             // 
             this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.InactiveCaption;
@@ -612,6 +602,16 @@
             this.tabPage3.TabIndex = 1;
             this.tabPage3.Text = "Adicionar";
             // 
+            // comboBox6
+            // 
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Items.AddRange(new object[] {
+            ""});
+            this.comboBox6.Location = new System.Drawing.Point(22, 117);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(309, 24);
+            this.comboBox6.TabIndex = 6;
+            // 
             // label16
             // 
             this.label16.AutoSize = true;
@@ -677,7 +677,7 @@
             // 
             // buttonCloseDetails
             // 
-            this.buttonCloseDetails.Location = new System.Drawing.Point(1132, 436);
+            this.buttonCloseDetails.Location = new System.Drawing.Point(1006, 433);
             this.buttonCloseDetails.Margin = new System.Windows.Forms.Padding(4);
             this.buttonCloseDetails.Name = "buttonCloseDetails";
             this.buttonCloseDetails.Size = new System.Drawing.Size(100, 28);
@@ -748,24 +748,22 @@
             this.button6.Text = "Visitas";
             this.button6.UseVisualStyleBackColor = false;
             // 
-            // comboBox6
+            // DetalhesAnuncio
             // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
-            ""});
-            this.comboBox6.Location = new System.Drawing.Point(22, 117);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(309, 24);
-            this.comboBox6.TabIndex = 6;
+            this.DetalhesAnuncio.Location = new System.Drawing.Point(22, 20);
+            this.DetalhesAnuncio.Name = "DetalhesAnuncio";
+            this.DetalhesAnuncio.Size = new System.Drawing.Size(408, 250);
+            this.DetalhesAnuncio.TabIndex = 7;
+            this.DetalhesAnuncio.Text = "";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1711, 997);
+            this.Controls.Add(this.buttonCloseDetails);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.buttonCloseDetails);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.Tab2);
@@ -843,7 +841,6 @@
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.ListBox DetalhesAnuncio;
         private System.Windows.Forms.Button buttonCloseDetails;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage5;
@@ -856,5 +853,6 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.RichTextBox DetalhesAnuncio;
     }
 }
