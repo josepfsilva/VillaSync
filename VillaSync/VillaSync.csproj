@@ -50,6 +50,7 @@
     <Compile Include="Anuncio.cs" />
     <Compile Include="Apartamento.cs" />
     <Compile Include="AppData.cs" />
+    <Compile Include="Cliente.cs" />
     <Compile Include="Contrato.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

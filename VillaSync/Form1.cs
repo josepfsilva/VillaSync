@@ -31,6 +31,9 @@ namespace VillaSync
             // Attach the CellClick event handler
             dataGridView2.CellClick += dataGridView2_CellClick;
             buttonCloseDetails.Click += buttonCloseDetails_Click;
+
+            dataGridView4.CellClick += dataGridView4_CellClick;
+            
         }
 
         private SqlConnection getSGBDConnection()
@@ -70,6 +73,7 @@ namespace VillaSync
         private void button1_Click(object sender, EventArgs e)
         {
             Tab2.Hide();
+            Tab3.Hide();
             Tab1.Show();
             comboBox4.Items.Clear();
             comboBox5.Items.Clear();
@@ -108,6 +112,7 @@ namespace VillaSync
         private void button2_Click(object sender, EventArgs e)
         {
             Tab1.Hide();
+            Tab3.Hide();
             Tab2.Show();
             comboBox6.Items.Clear();
             if (!verifySGBDConnection())
@@ -320,26 +325,28 @@ namespace VillaSync
             try
             {
                 // Get the selected employee ID from comboBox5
+                if (comboBox5.SelectedItem == null) { return; }
                 int id_empregado = int.Parse(comboBox5.SelectedItem.ToString());
 
-                if(checkBox1.Checked)
+                if (checkBox1.Checked)
                 {
                     List<Moradia> moradias = Moradia.GetMoradiasForEmpregado(connectionString, id_empregado);
                     dataGridView1.DataSource = moradias;
-                } 
-                else if(checkBox2.Checked)
+                }
+                else if (checkBox2.Checked)
                 {
                     List<Apartamento> apartamentos = Apartamento.GetApartmentosForEmpregado(connectionString, id_empregado);
                     dataGridView1.DataSource = apartamentos;
                 }
-                else {
+                else
+                {
                     // Retrieve properties associated with the selected employee ID
                     List<Property> properties = Property.GetPropertiesForEmpregado(connectionString, id_empregado);
                     // Bind the properties to the DataGridView
                     dataGridView1.DataSource = properties;
                 }
 
-              
+
 
                 // Optionally hide the ID column if needed
                 dataGridView1.Columns["ID"].Visible = false;
@@ -353,7 +360,22 @@ namespace VillaSync
 
         private void button3_Click(object sender, EventArgs e)
         {
+            Tab1.Hide();
+            Tab2.Hide();
+            Tab3.Show();
 
+            if (!verifySGBDConnection())
+                return;
+            try
+            {
+                List<Cliente> clientes = Cliente.GetClientes(connectionString);
+                dataGridView4.DataSource = clientes;
+                dataGridView4.Columns["Id"].Visible = false;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error loading Anuncios: " + ex.Message);
+            }
         }
 
         private void dataGridView2_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -398,7 +420,7 @@ namespace VillaSync
                     command.Parameters.AddWithValue("@Titulo", titulo);
                     command.Parameters.AddWithValue("@Descricao", descricao);
                     command.Parameters.AddWithValue("@id_contrato", id_contrato);
-                    
+
 
                     connection.Open();
                     command.ExecuteNonQuery();
@@ -412,6 +434,64 @@ namespace VillaSync
             }
 
 
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            try { 
+
+                int nif = Convert.ToInt32(textBox7.Text.ToString());
+
+                List<Cliente> clientes = new List<Cliente>();
+
+                clientes = Cliente.GetClientesForNif(connectionString, nif);
+
+                dataGridView4.DataSource = clientes;
+
+            } catch (FormatException)
+            {
+                MessageBox.Show("Not good Input");
+            }
+
+
+        }
+
+        
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            groupBox4.Visible = false;
+            button10.Visible = false;
+            button9.Visible = false;
+        }
+
+        private void dataGridView4_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                // Get the selected Anuncio
+                DataGridViewRow row = dataGridView4.Rows[e.RowIndex];
+                Cliente selectedClient = (Cliente)row.DataBoundItem;
+
+                groupBox4.Visible = true;
+                button10.Visible = true;
+                button9.Visible = true;
+
+
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            //delete client and everything associated //sp
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {   
+            groupBox4.Visible=false;
+            button10.Visible=false;
+            button9.Visible=false;
+            groupBox5.Visible = true;
         }
     }
 }
