@@ -18,3 +18,13 @@ C:\Users\utilizador\Documents\GitHub\VillaSync\VillaSync\obj\Debug\VillaSync.csp
 C:\Users\utilizador\Documents\GitHub\VillaSync\VillaSync\obj\Debug\VillaSync.csproj.CoreCompileInputs.cache
 C:\Users\utilizador\Documents\GitHub\VillaSync\VillaSync\obj\Debug\VillaSync.exe
 C:\Users\utilizador\Documents\GitHub\VillaSync\VillaSync\obj\Debug\VillaSync.pdb
+C:\Users\guife\OneDrive\Documentos\GitHub\VillaSync\VillaSync\bin\Debug\VillaSync.exe.config
+C:\Users\guife\OneDrive\Documentos\GitHub\VillaSync\VillaSync\bin\Debug\VillaSync.exe
+C:\Users\guife\OneDrive\Documentos\GitHub\VillaSync\VillaSync\bin\Debug\VillaSync.pdb
+C:\Users\guife\OneDrive\Documentos\GitHub\VillaSync\VillaSync\obj\Debug\VillaSync.csproj.AssemblyReference.cache
+C:\Users\guife\OneDrive\Documentos\GitHub\VillaSync\VillaSync\obj\Debug\VillaSync.Form1.resources
+C:\Users\guife\OneDrive\Documentos\GitHub\VillaSync\VillaSync\obj\Debug\VillaSync.Properties.Resources.resources
+C:\Users\guife\OneDrive\Documentos\GitHub\VillaSync\VillaSync\obj\Debug\VillaSync.csproj.GenerateResource.cache
+C:\Users\guife\OneDrive\Documentos\GitHub\VillaSync\VillaSync\obj\Debug\VillaSync.csproj.CoreCompileInputs.cache
+C:\Users\guife\OneDrive\Documentos\GitHub\VillaSync\VillaSync\obj\Debug\VillaSync.exe
+C:\Users\guife\OneDrive\Documentos\GitHub\VillaSync\VillaSync\obj\Debug\VillaSync.pdb
