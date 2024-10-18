@@ -1,2 +1,2 @@
 # VillaSync
-Database Project in C#
+Plataform build in C# and WF to manage a Luxury Real Estate company. 
